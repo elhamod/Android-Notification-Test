@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoeTestAndroidNotificationASP", "MoeTestAndroidNotificationASP\MoeTestAndroidNotificationASP.csproj", "{899B2FE2-0FF5-40F9-8189-34F5BF7E6E44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{CA24C50B-DAF5-4CDD-B91B-AFD406CC5521}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{00E08B4B-0030-43F4-910D-E19A2A805231}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{113A8461-9C93-4A29-83DC-A3D3C1E35C4A}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\MoeTestAndroidNotificationASP.json = PublishScripts\Templates\MoeTestAndroidNotificationASP.json
+		PublishScripts\Templates\MoeTestAndroidNotificationASP.param.dev.json = PublishScripts\Templates\MoeTestAndroidNotificationASP.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{899B2FE2-0FF5-40F9-8189-34F5BF7E6E44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{899B2FE2-0FF5-40F9-8189-34F5BF7E6E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{899B2FE2-0FF5-40F9-8189-34F5BF7E6E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{899B2FE2-0FF5-40F9-8189-34F5BF7E6E44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{00E08B4B-0030-43F4-910D-E19A2A805231} = {CA24C50B-DAF5-4CDD-B91B-AFD406CC5521}
+		{113A8461-9C93-4A29-83DC-A3D3C1E35C4A} = {CA24C50B-DAF5-4CDD-B91B-AFD406CC5521}
+	EndGlobalSection
+EndGlobal
